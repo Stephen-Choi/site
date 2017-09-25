@@ -1,0 +1,135 @@
+/*  
+COLORS
+#D9D9D9 = light
+#C4C4C4 = bit darker
+#999999 = gray
+#707070 = darker gray
+#363636 = dark shade   
+#1e1e1e = darkest shade b4 black
+*/
+
+/*
+FONTS
+font-family: 'Mukta Malar', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Scheherazade', serif;
+font-family: 'Tangerine', cursive;
+*/
+
+/*body {
+	background-color: yellow !important;
+}*/
+@font-face {
+	font-family: Bebas;
+	src: url('BebasNeue.otf');
+}
+
+nav {
+	background-color: #1e1e1e !important;
+}
+
+li {
+	margin: 0 !important;
+}
+
+/* nav styling */
+.nav-size {
+	width: 100%;
+	height: 55px;
+}
+
+.navbar {
+	margin: 0 !important;
+	border-radius: 0 !important;
+}
+
+.nav-text {
+	color: #D9D9D9;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 3px;
+	font-family: 'Bebas', serif;
+}
+
+.glyph-size {
+	font-size: 2em;
+}
+
+/* intro styling */
+.top-div {
+	width: 100%;
+	height: 662px;
+	background-color: #C4C4C4;
+}
+
+.title-box {
+	margin-left: 19.7px;
+}
+
+.title-text {
+	font-family: 'Lato', sans-serif;
+	font-size: 175px;
+	color: black;
+}
+
+.dash {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 100px;
+	margin-top: 9px;
+	color: #707070;
+	display: inline-block;
+}
+
+/* contact styling */
+.bottom-div {
+	width: 100%;
+	height: 83px;
+	background-color: #1e1e1e;
+}
+
+.img-div {
+	background-color: #C4C4C4 !important;
+	border-radius: 100px;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	left: 35%;
+	top: 6.5px;
+	margin-right: 15px;
+}
+
+.github-img {
+	width: 70px;
+	height: 70px;
+}
+
+.mail-img {
+	width: 55px;
+	height: 55px;
+	margin: auto;
+	margin-top: 7.5px;
+}
+
+.linkedin-img {
+	width: 46px;
+	height: 46px;
+	margin: auto;
+	margin-top: 9px;
+}
+
+.resume-img {
+	width: 53px;
+	height: 53px;
+	margin: auto;
+	margin-top: 7.5px;
+}
+
+
+
+
+
+
+
+
