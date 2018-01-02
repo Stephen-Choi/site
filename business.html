@@ -2,13 +2,11 @@
 <html>
 <head>
 	<title>Business</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel:700|Julius+Sans+One|Playfair+Display+SC|Scheherazade|Tangerine" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:700i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar:200" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
-	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 </head>
 <body>
 	
@@ -16,7 +14,7 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
       		<a class="navbar-brand nav-brand" href="index.html">HOME</a>
-	      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+	      	<button type="button" class="navbar-toggle clickme" data-toggle="collapse" data-target="#Navbar">
 		        <span class="icon-bar" style="background-color: #D9D9D9 !important;"></span>
 				<span class="icon-bar" style="background-color: #D9D9D9 !important;"></span>
 				<span class="icon-bar" style="background-color: #D9D9D9 !important;"></span>                     
@@ -24,7 +22,7 @@
 	    </div>
 	    <!-- Basic Navbar -->
 		<div class="collapse navbar-collapse" id="Navbar">
-		    <ul class="nav navbar-nav navbar-right">
+		    <ul class="nav navbar-nav navbar-right fix">
 		      <li><a href="about.html" class="nav-text">ABOUT</a></li>
 		      <li><a href="code.html" class="nav-text">CODE</a></li>
 		      <li><a href="business.html" class="active-nav">BUSINESS</a></li>
@@ -32,6 +30,8 @@
 	  	</div>
   	</div>
 </nav> 
+
+<div class="title-shift"></div>
 	
 <div class="container">
 	<br>
@@ -43,104 +43,165 @@
 <br>
 <br>
 
-<div class="container business-contain">
-	<div class="row row-shift">
-		<div class="col-sm-4">
-			<figure class="business-fig style1">
-				<img src="images/leangap.png" height="47px" width="280px;" class="img-responsive business-img">
-				<figcaption class="business-cap">
-					<h3>Entrepreneurship</h3>
-					<h4>Summer Bootcamp in Boston dedicated to simulate running a new startup. For my team's startup, we ran a mobile app company. Personally, I was in charge of branding and marketing. I learnt a lot about the startup culture and the importance of perserverance and hardwork.</h4>
-				</figcaption>
-			</figure>
-		</div>
-		<div class="col-sm-4">
-			<figure class="business-fig style2">
-				<img src="images/deca.png" height="160px" width="260px;" class="img-responsive business-img">
-				<figcaption class="business-cap">
-					<h3>Marketing</h3>
-					<h4>DECA is a business case competition. I participated in the Sports and  Entertainment Marketing category. I was fortunate enough to compete internationally twice and rank amongst the top 20. Over my time with DECA I've greatly improved my critical thinking alongside my presentation skills. </h4>
-				</figcaption>
-			</figure>
-		</div>
-		<div class="col-sm-4">
-			<figure class="business-fig style3">
-				<img src="images/fbla.png" height="130px" width="167px;" class="img-responsive business-img">
-				<figcaption class="business-cap">
-					<h3>Marketing</h3>
-					<h4>FBLA is a business case competition. I was president of my school's FBLA chapter and helped organize our provincial competition. As a contestant, I participated in the Team Marketing event and won first place. FBLA helped me improve my teamwork and presentation abilities.</h4>
-				</figcaption>
-			</figure>
+<div class= "business-contain1">
+	<div class="container-fluid">
+		<div class="row row-shift">
+			<div class="col-sm-4">
+				<figure class="business-fig style1">
+					<div class="clicke1"></div>
+					<img src="images/leangap.png" height="47px" width="280px;" class="img-responsive business-img">
+					<figcaption class="business-cap">
+						<h3>Entrepreneurship</h3>
+						<h4>Summer Bootcamp in Boston dedicated to simulate running a new startup. For my team's startup, we ran a mobile app company. Personally, I was in charge of branding and marketing. I learnt a lot about the startup culture and the importance of perserverance and hardwork.</h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4">
+				<figure class="business-fig style2">
+					<img src="images/deca.png" height="160px" width="260px;" class="img-responsive business-img">
+					<figcaption class="business-cap">
+						<h3>Marketing</h3>
+						<h4>DECA is a business case competition. I participated in the Sports and  Entertainment Marketing category. I was fortunate enough to compete internationally twice and rank amongst the top 20. Over my time with DECA I've greatly improved my critical thinking alongside my presentation skills. </h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4">
+				<figure class="business-fig style3">
+					<img src="images/fbla.png" height="130px" width="167px;" class="img-responsive business-img">
+					<figcaption class="business-cap">
+						<h3>Marketing</h3>
+						<h4>FBLA is a business case competition. I was president of my school's FBLA chapter and helped organize our provincial competition. As a contestant, I participated in the Team Marketing event and won first place. FBLA helped me improve my teamwork and presentation abilities.</h4>
+					</figcaption>
+				</figure>
+			</div>
 		</div>
 	</div>
 	<br>
 	<br>
-	<div class="row row-shift">
-		<div class="col-sm-4">
-			<figure class="bottom-fig style4">
-				<img src="images/cta-logo.png" class="img-responsive business-img" width="172.5px" height="180px">
-				<figcaption class="bottom-cap">
-					<h3>SPONSORSHIP</h3>
-					<h4>I held the position of sponsorship director for this youth council (now known as Platform For Youth Creativity). During my time with the organization, I helped gain sponsors for our events, I created the council’s website and I constantly stretched the limits of my creativity!</h4>
-				</figcaption>
-			</figure>
-		</div>
-		<div class="col-sm-4">
-			<figure class="bottom-fig style5">
-				<img src="images/e3logo.png" class="img-responsive business-img" width="300px" height="90px">
-				<figcaption class="bottom-cap">
-					<h3>COMPETITION</h3>
-					<h4>E3 is a summer team business competition comprised of 3 challenges: Operating a booth at a night market and presenting two research projects to Microsoft and Bnotions. During the challenge, my team earned over $2000 at our booth, won the Microsoft challenge and won first overall in the competition. </h4>
-				</figcaption>
-			</figure>
-		</div>
-		<div class="col-sm-4">
-			<figure class="bottom-fig style6">
-				<img src="images/project5k.svg" class="img-responsive business-img" width="300px" height="80px">
-				<figcaption class="bottom-cap">
-					<h3>VOLUNTEERING</h3>
-					<h4>I was an Event Coordinator for this volunteer organization. I assisted in leading volunteering events throughout the GTA and planned and lead 2 different initiatives. One of these was called “Project LunchBag” in which our organization made over 200 lunches and distributed them in Downtown Toronto.  </h4>
-				</figcaption>
-			</figure>
+	<div class="container-fluid">
+		<div class="row row-shift">
+			<div class="col-sm-4">
+				<figure class="bottom-fig style4">
+					<img src="images/cta-logo.png" class="img-responsive business-img" width="172.5px" height="180px">
+					<figcaption class="bottom-cap">
+						<h3>SPONSORSHIP</h3>
+						<h4>I held the position of sponsorship director for this youth council (now known as Platform For Youth Creativity). During my time with the organization, I helped gain sponsors for our events, I created the council's website and I constantly stretched the limits of my creativity!</h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4">
+				<figure class="bottom-fig style5">
+					<img src="images/e3logo.png" class="img-responsive business-img" width="300px" height="90px">
+					<figcaption class="bottom-cap">
+						<h3>COMPETITION</h3>
+						<h4>E3 is a summer team business competition comprised of 3 challenges: Operating a booth at a night market and presenting two research projects to Microsoft and Bnotions. During the challenge, my team earned over $2000 at our booth, won the Microsoft challenge and won first overall in the competition. </h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4">
+				<figure class="bottom-fig style6">
+					<img src="images/project5k.svg" class="img-responsive business-img" width="300px" height="80px">
+					<figcaption class="bottom-cap">
+						<h3>VOLUNTEERING</h3>
+						<h4>I was an Event Coordinator for this volunteer organization. I assisted in leading volunteering events throughout the GTA and planned and lead 2 different initiatives. One of these was called “Project LunchBag” in which our organization made over 200 lunches and distributed them in Downtown Toronto.  </h4>
+					</figcaption>
+				</figure>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid bottom-div">
-	<div class="container">
-		<div class="img-github">
+<div class="business-contain2">
+	<div class="container-fluid">
+		<div class="row row-shift">
+			<div class="col-sm-6">
+				<figure class="business-fig style1">
+					<div class="clicke1"></div>
+					<img src="images/leangap.png" height="47px" width="280px;" class="business-img">
+					<figcaption class="business-cap">
+						<h3>Entrepreneurship</h3>
+						<h4>Summer Bootcamp in Boston dedicated to simulate running a new startup. For my team's startup, we ran a mobile app company. Personally, I was in charge of branding and marketing. I learnt a lot about the startup culture and the importance of perserverance and hardwork.</h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-6">
+				<figure class="business-fig style2">
+					<img src="images/deca.png" height="160px" width="260px;" class="business-img">
+					<figcaption class="business-cap">
+						<h3>Marketing</h3>
+						<h4>DECA is a business case competition. I participated in the Sports and  Entertainment Marketing category. I was fortunate enough to compete internationally twice and rank amongst the top 20. Over my time with DECA I've greatly improved my critical thinking alongside my presentation skills. </h4>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row row-shift">
+			<div class="col-sm-6">
+				<figure class="business-fig style3">
+					<img src="images/fbla.png" height="130px" width="167px;" class="business-img">
+					<figcaption class="business-cap">
+						<h3>Marketing</h3>
+						<h4>FBLA is a business case competition. I was president of my school's FBLA chapter and helped organize our provincial competition. As a contestant, I participated in the Team Marketing event and won first place. FBLA helped me improve my teamwork and presentation abilities.</h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-6">
+				<figure class="bottom-fig style4">
+					<img src="images/cta-logo.png" class="business-img" width="172.5px" height="180px">
+					<figcaption class="bottom-cap">
+						<h3>SPONSORSHIP</h3>
+						<h4>I held the position of sponsorship director for this youth council (now known as Platform For Youth Creativity). During my time with the organization, I helped gain sponsors for our events, I created the council' website and I constantly stretched the limits of my creativity!</h4>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row row-shift">
+			<div class="col-sm-6">
+				<figure class="bottom-fig style5">
+					<img src="images/e3logo.png" class="business-img" width="300px" height="90px">
+					<figcaption class="bottom-cap">
+						<h3>COMPETITION</h3>
+						<h4>E3 is a summer team business competition comprised of 3 challenges: Operating a booth at a night market and presenting two research projects to Microsoft and Bnotions. During the challenge, my team earned over $2000 at our booth, won the Microsoft challenge and won first overall in the competition. </h4>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-6">
+				<figure class="bottom-fig style6">
+					<img src="images/project5k.svg" class="business-img" width="300px" height="80px">
+					<figcaption class="bottom-cap">
+						<h3>VOLUNTEERING</h3>
+						<h4>I was an Event Coordinator for this volunteer organization. I assisted in leading volunteering events throughout the GTA and planned and lead 2 different initiatives. One of these was called "Project Lunchbag" in which our organization made over 200 lunches and distributed them in Downtown Toronto.  </h4>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="bottom-div">
+	<span>
+		<div id="div-github">
 			<a href="https://github.com/Stephen-Choi" class="github-link"><img src="images/github.png" class="img-responsive github-img"></a>
 		</div>
-		<div class="img-mail">
+		<div id="div-mail">
 			<a href="mailto:stephen.fu.hang.choi@gmail.com" class="mail-link"><img src="images/mail.png" class="img-responsive mail-img"></a>
 		</div>
-		<div class="img-linkedin">
+		<div id="div-linkedin">
 			<a href="" class="linkedin-link"><img src="images/linkedin.png" class="img-responsive linkedin-img"></a>
 		</div>
-		<div class="img-resume">
+		<div id="div-resume">
 			<a href="" class="resume-link"><img src="images/resume.png" class="img-responsive resume-img"></a>
 		</div>
-	</div>
-</div>
+	</span>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

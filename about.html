@@ -7,8 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:700i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar:200" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
-	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
 </head>
 <body>
 <nav class="navbar nav-size">
@@ -23,7 +22,7 @@
 	    </div>
 	    <!-- Basic Navbar -->
 		<div class="collapse navbar-collapse" id="Navbar">
-		    <ul class="nav navbar-nav navbar-right">
+		    <ul class="nav navbar-nav navbar-right fix">
 		      <li><a href="about.html" class="active-nav">ABOUT</a></li>
 		      <li><a href="code.html" class="nav-text">CODE</a></li>
 		      <li><a href="business.html" class="nav-text">BUSINESS</a></li>
@@ -31,15 +30,47 @@
 	  	</div>
   	</div>
 </nav> 
+
+<div class="title-shift"></div>
 	
 <div class="container">
 	<br>
 	<h1 class="title-text"> About </h1> 
-	
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-md-3">
+			<img src="images/stephen.png" class="img-circle" id="stephen">
+		</div>
+		<div class="col-md-9">
+			<p id="about-text">
+	Greetings! My name's Stephen and I'm an aspiring full-stack web developer. I say aspiring because to date I've touched on both front and back-ends but haven't fully mastered them yet. Currently, I'm learning Illustrator and Javascript and to be honest it's quite a thrill playing around with layouts! I'm also a student studying at Waterloo University in the Computing and Financial Management program. School is tough but co-op seems like it'll be a rewarding experience. If you have a cool project or would just like to chat, feel free to shoot me an email or connect with me on social media. Enjoy the rest of the site!</p>
+		</div>
+	</div>
 </div>
 
 <br>
 <br>
-<br>
+
+<footer class="bottom-div">
+	<span>
+		<div id="div-github">
+			<a href="https://github.com/Stephen-Choi" class="github-link"><img src="images/github.png" class="img-responsive github-img"></a>
+		</div>
+		<div id="div-mail">
+			<a href="mailto:stephen.fu.hang.choi@gmail.com" class="mail-link"><img src="images/mail.png" class="img-responsive mail-img"></a>
+		</div>
+		<div id="div-linkedin">
+			<a href="" class="linkedin-link"><img src="images/linkedin.png" class="img-responsive linkedin-img"></a>
+		</div>
+		<div id="div-resume">
+			<a href="" class="resume-link"><img src="images/resume.png" class="img-responsive resume-img"></a>
+		</div>
+	</span>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>
