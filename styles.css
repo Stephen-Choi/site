@@ -1,5 +1,5 @@
 body {
-	min-width: 320px;
+	min-width: 400px;
 	height: 100%;
 }
 
@@ -25,6 +25,11 @@ p {
 @font-face {
 	font-family: Mukta Malar;
 	src: url('MuktaMalar-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: gnuolane;
+	src: url('gnuolane rg.ttf');
 }
 
 nav {
@@ -88,26 +93,12 @@ a:hover {
 }
 
 /* intro styling */
-.home {
-	height: 720px;
+#index-img {
+	background: url(images/index.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 100%;
-	background-color: orange;
-}
-
-.top-div {
-	width: 100%;
-	height: 662px;
-	background-color: #C4C4C4;
-}
-
-.title-box {
-	margin-left: 19.7px;
-}
-
-.home-text {
-	font-family: 'Lato', sans-serif;
-	font-size: 175px;
-	color: black;
+	height: 100%;
 }
 
 /* contact styling */
@@ -180,7 +171,6 @@ a:hover {
 	margin: auto;
 	margin-top: 7.5px;
 }
-
 
 /*code.html*/
 
@@ -596,6 +586,27 @@ a:hover {
 	.nav-size {
 		width: 100%;
 		height: 55px;
+	}
+}
+
+/*index*/
+@media (max-width: 1050px) {
+	#index-img {
+		background: url(images/index2.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 650px) {
+	#index-img {
+		background: url(images/index3.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 100%;
 	}
 }
 
