@@ -139,13 +139,35 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$(".view-cont").hover(function() {
-		$(".pics").css("opacity", "0.4"),
-		$(".view").css("opacity", "1");
+	$(".project1 .view-cont").hover(function() {
+		$("#cta-pic").css("opacity", "0.4"),
+		$("#cta-view").css("opacity", "1");
 	},
 	function(){
-		$(".pics").css("opacity", "1"),
-		$(".view").css("opacity", "0");
+		$("#cta-pic").css("opacity", "1"),
+		$("#cta-view").css("opacity", "0");
+	});
+});
+
+$(document).ready(function(){
+	$(".project2 .view-cont").hover(function() {
+		$("#weather-pic").css("opacity", "0.4"),
+		$("#weather-view").css("opacity", "1");
+	},
+	function(){
+		$("#weather-pic").css("opacity", "1"),
+		$("#weather-view").css("opacity", "0");
+	});
+});
+
+$(document).ready(function(){
+	$(".project3 .view-cont").hover(function() {
+		$("#java-pic").css("opacity", "0.4"),
+		$("#game-view").css("opacity", "1");
+	},
+	function(){
+		$("#java-pic").css("opacity", "1"),
+		$("#game-view").css("opacity", "0");
 	});
 });
 

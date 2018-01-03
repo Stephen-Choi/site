@@ -265,7 +265,7 @@ a:hover {
 .project1 {
 	height: 820px;
 	width: 100%;
-	background-color: #FF8100;
+	background-color: #ea8212;
 }
 
 #cta-pic {
@@ -330,7 +330,7 @@ a:hover {
 }
 
 .project2 h2, .project2 h3, .project2 h4  {
-	color: #91a6bc;
+	color: #c9dbef;
 }
 
 #weather-pic {
@@ -842,6 +842,24 @@ a:hover {
 	.project3 {
 		height: 800px;
 	}
+
+	#weather-view {
+		position: relative;
+		top: -105px;
+	}
+
+	#game-view {
+		position: relative;
+		top: -107px;
+	}
+
+	.project2 .view-cont {
+		max-width: 500px;
+	}
+
+	.project3 .view-cont {
+		max-width: 500px;
+	}
 }
 
 @media (max-width: 580px) {
@@ -880,6 +898,35 @@ a:hover {
 
 	.project3 {
 		height: 705px;
+	}
+
+	#weather-view {
+		position: relative;
+		top: -70px;
+	}
+
+	.view {
+		width: 180px;
+		height: 35px;
+		font-size: 26px;
+	}
+
+	#game-view {
+		position: relative;
+		top: -80px;
+	}
+
+	#cta-view {
+		position: relative;
+		top: -94px;
+	}
+
+	.project2 .view-cont {
+		max-width: 400px;
+	}
+
+	.project3 .view-cont {
+		max-width: 400px;
 	}
 }
 
@@ -923,6 +970,35 @@ a:hover {
 
 	.project3 {
 		height: 705px;
+	}
+
+	#weather-view {
+		position: relative;
+		top: -35px;
+	}
+
+	.view {
+		width: 180px;
+		height: 35px;
+		font-size: 26px;
+	}
+
+	#game-view {
+		position: relative;
+		top: -36px;
+	}
+
+	#cta-view {
+		position: relative;
+		top: -54px;
+	}
+
+	.project2 .view-cont {
+		max-width: 300px;
+	}
+
+	.project3 .view-cont {
+		max-width: 300px;
 	}
 }
 
